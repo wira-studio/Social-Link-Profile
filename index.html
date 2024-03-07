@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            off:'#141414',
+            dark: '#1F1F1F',
+            grey: '#333333',
+            green: '#C3FF0E'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-off grid place-items-center h-screen">
+    <div class="w-80 bg-dark m-auto rounded-lg">
+        <div class="">
+            <img src="images/avatar-jessica.jpeg" class="h-20 w-20 rounded-full mt-8 mx-auto" alt="">
+        </div>
+        <h1 class="text-2xl text-center text-white mt-4">Jessica Randall</h1>
+        <p class="mx-auto text-center text-green text-sm font-bold mt-1 ">London, United Kingdom</p>    
+        <p class="text-center text-white text-sm m-8">"Front-end developer and avid reader."</p>
+        <div class="grid place-items-center gap-4 mx-10 my-8">
+            <button class="bg-grey font-bold text-white w-full p-2 rounded-md hover:bg-green hover:text-dark">Github</button>
+            <button class="bg-grey font-bold text-white w-full p-2 rounded-md hover:bg-green hover:text-dark">Frontend Mentor</button>
+            <button class="bg-grey font-bold text-white w-full p-2 rounded-md hover:bg-green hover:text-dark">LinkedIn</button>
+            <button class="bg-grey font-bold text-white w-full p-2 rounded-md hover:bg-green hover:text-dark">Twitter</button>    
+            <button class="bg-grey font-bold text-white w-full p-2 rounded-md hover:bg-green hover:text-dark">Instagram</button>    
+
+        </div>
+    </div>
+
+</body>
+</html>
